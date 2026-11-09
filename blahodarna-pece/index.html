@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- NOVÉ: doplňkové styly pro přestavěnou úvodní stránku -->
+    <link href="css/prodej.css" rel="stylesheet" />
+    <meta name="author" content="Ondřej Kubánek">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>Blahodárná péče | Ájurvédské a relaxační masáže Žatec</title>
+    <meta name="description"
+        content="Ájurvédské, lymfatické a relaxační masáže, Head Spa a maderoterapie v Žatci. Vyberte si terapeutku, prohlédněte nabídku a rezervujte online.">
+    <meta name="keywords"
+        content="masáže žatec, blahodárná péče, štěpánka kee, lenka škoulová, ajurvédské masáže, bylinné měšce, head spa, maderoterapie, lymfatická masáž, dárkové poukazy na masáž">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:url" content="https://www.blahodarnapece.cz/">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="Ájurvédské, lymfatické a relaxační masáže, Head Spa a maderoterapie v Žatci. Rezervace online.">
+    <meta property="og:image" content="assets/img/bg-header.jpg">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+
+</head>
+
+<body>
+    <nav class="navbar bg-light navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around m-nav-btn"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
+
+                <ul class="navbar-nav m-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="./#masaze">Masáže</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./poukazy">Dárkové poukazy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./#o-nas">O nás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./#kontakt">Kontakt</a>
+                    </li>
+                    <li>
+                        <a class="nav-link " href="./kontraindikace">Kontraindikace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervace</a>
+                    </li>
+                    <li class="nav-item social-nav position-relative">
+                        <a class="nav-link social-nav-item" target="_blank"
+                            href="https://www.instagram.com/blahodarna_pece_stepanka_kee/">
+                            <img class="icon" src="./assets/icons/instagram.svg" alt="Instagram" height="25px">
+                        </a>
+                        <a class="nav-link social-nav-item" target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100088248204150">
+                            <img class="icon" src="./assets/icons/facebook.svg" alt="Facebook" height="25px">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- ============ HLAVIČKA ============ -->
+    <section class="content-large header w-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center text-header">
+                    <div class="col-lg-12">
+                        <img class="img-header" src="./assets/logos/Logo_trans_bile.svg" alt="Logo Blahodárné péče">
+                    </div>
+                    <div class="col-lg-12 py-5">
+                        <a class="btn btn-secondary m-2" href="#masaze">Vybrat masáž</a>
+                        <a class="btn btn-primary m-2" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervace</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ 1) KDO SE VÁM VĚNUJE (karty terapeutek) ============ -->
+    <section class="therapists py-5" id="terapeutky">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center pb-4">
+                    <h1>Vítejte v Blahodárné péči</h1>
+                    <p class="pt-2">Ájurvédské a relaxační masáže v Žatci. Vyberte si terapeutku, prohlédněte si
+                        nabídku a rezervujte se online.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+
+                <!-- Štěpánka -->
+                <div class="col-lg-6">
+                    <article class="therapist-card">
+                        <img class="therapist-photo" src="./assets/img/stepanka_2.jpg" alt="Štěpánka Kee">
+                        <h2 class="therapist-name">Štěpánka Kee</h2>
+                        <ul class="therapist-services">
+                            <li>Ájurvédské masáže a procedury</li>
+                            <li>Lymfatické masáže</li>
+                            <li>Relaxační masáže</li>
+                        </ul>
+                        <p class="therapist-tel"><a href="tel:+420777450911">+420 777 450 911</a></p>
+                        <a class="btn btn-primary" href="#nabidka-stepanka">Více</a>
+                    </article>
+                </div>
+
+                <!-- Lenka -->
+                <div class="col-lg-6">
+                    <article class="therapist-card">
+                        <!-- DOPLNIT: fotku Lenky nahrát jako assets/img/lenka.jpg -->
+                        <img class="therapist-photo" src="./assets/img/lenka.jpg" alt="Lenka Škoulová">
+                        <h2 class="therapist-name">Lenka Škoulová</h2>
+                        <ul class="therapist-services">
+                            <li>Ájurvédské masáže</li>
+                            <li>Lymfatické masáže</li>
+                            <li>Head Spa</li>
+                            <li>Maderoterapie</li>
+                        </ul>
+                        <p class="therapist-tel"><a href="tel:+420723249955">+420 723 249 955</a></p>
+                        <a class="btn btn-primary" href="#nabidka-lenka">Více</a>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ 2) DÁRKOVÝ POUKAZ ============ -->
+    <section class="voucher-wrap">
+        <div class="container">
+            <div class="voucher">
+                <div class="voucher-text">
+                    <h2>Darujte chvíli odpočinku</h2>
+                    <p>Dárkový poukaz na masáž potěší vždy. Hodnotu si zvolíte sami.</p>
+                </div>
+                <a class="btn btn-primary" href="./poukazy">Objednat poukaz</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ 3) NABÍDKA VŠECH MASÁŽÍ ============ -->
+    <section class="massages-offer py-5" id="masaze">
+        <div class="container">
+            <h1 class="text-center pb-2">Nabídka masáží</h1>
+            <p class="text-center offer-hint">Kliknutím na masáž se zobrazí popis a odkaz na rezervaci.</p>
+            <div class="row g-5 pt-3">
+
+                <!-- Štěpánka -->
+                <div class="col-lg-6 offer-col" id="nabidka-stepanka">
+                    <h2 class="offer-name">Štěpánka Kee</h2>
+                    <h3 class="offer-group">Ájurvédské masáže a procedury</h3>
+<div class="accordion accordion-flush massage-list" id="acc-s-0">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-1">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-1" aria-expanded="false" aria-controls="c-s-1">
+        <span class="massage-head">
+          <span class="massage-title">Ájurvédská <b>Abhyanga</b> masáž</span>
+          <span class="massage-price">60 min 1000 Kč / 90 min 1500 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-1" class="accordion-collapse collapse" aria-labelledby="h-s-1" data-bs-parent="#acc-s-0">
+      <div class="accordion-body">
+        <p>Klasická ájurvédská masáž celého těla teplým olejem. Pomalé, plynulé tahy tělo prohřejí a hluboce uvolní.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-2" aria-expanded="false" aria-controls="c-s-2">
+        <span class="massage-head">
+          <span class="massage-title"><b>Ájurvédská masáž</b> zad, rukou, šíje a hlavy</span>
+          <span class="massage-price">60 min 1000 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-2" class="accordion-collapse collapse" aria-labelledby="h-s-2" data-bs-parent="#acc-s-0">
+      <div class="accordion-body">
+        <p>Masáž teplým olejem zaměřená na horní polovinu těla: záda, ruce, šíji a hlavu.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-3" aria-expanded="false" aria-controls="c-s-3">
+        <span class="massage-head">
+          <span class="massage-title">Ájurvédská masáž nohou <b>Pada Abhyanga</b> a bylinný zábal nohou</span>
+          <span class="massage-price">75 min 1300 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-3" class="accordion-collapse collapse" aria-labelledby="h-s-3" data-bs-parent="#acc-s-0">
+      <div class="accordion-body">
+        <p>Masáž chodidel a nohou olejem, po ní teplý bylinný zábal. Příjemná chvíle pro unavené nohy.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-4" aria-expanded="false" aria-controls="c-s-4">
+        <span class="massage-head">
+          <span class="massage-title">Ájurvédská masáž <b>bylinnými měšci</b></span>
+          <span class="massage-price">90 min 1600 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-4" class="accordion-collapse collapse" aria-labelledby="h-s-4" data-bs-parent="#acc-s-0">
+      <div class="accordion-body">
+        <p>Masáž teplými bylinnými měšci a olejem. Teplo a vůně bylin tělo prohřejí a uvolní.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-5">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-5" aria-expanded="false" aria-controls="c-s-5">
+        <span class="massage-head">
+          <span class="massage-title">Ájurvédská <b>Garshan</b> masáž a peeling</span>
+          <span class="massage-price">90 min 1600 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-5" class="accordion-collapse collapse" aria-labelledby="h-s-5" data-bs-parent="#acc-s-0">
+      <div class="accordion-body">
+        <p>Energická masáž v rukavicích z hedvábí, po které následuje peeling. Pokožka je prokrvená a hebká.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-6">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-6" aria-expanded="false" aria-controls="c-s-6">
+        <span class="massage-head">
+          <span class="massage-title">Masážní terapie <b>Džaráhar</b> (svedan box, masáž, zábal, peeling)</span>
+          <span class="massage-price">120 min 2000 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-6" class="accordion-collapse collapse" aria-labelledby="h-s-6" data-bs-parent="#acc-s-0">
+      <div class="accordion-body">
+        <p>Ucelená procedura: parní bylinná lázeň (svedan box), masáž, zábal a peeling v jednom pobytu.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="offer-group">Lymfatické masáže</h3>
+<div class="accordion accordion-flush massage-list" id="acc-s-1">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-7">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-7" aria-expanded="false" aria-controls="c-s-7">
+        <span class="massage-head">
+          <span class="massage-title">Manuální <b>lymfatická masáž</b></span>
+          <span class="massage-price">60 min 1000 Kč / 90 min 1300 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-7" class="accordion-collapse collapse" aria-labelledby="h-s-7" data-bs-parent="#acc-s-1">
+      <div class="accordion-body">
+        <p>Jemná manuální technika s lehkým, rytmickým tlakem. Klidná masáž celého těla.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="offer-group">Relaxační masáže</h3>
+<div class="accordion accordion-flush massage-list" id="acc-s-2">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-8">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-8" aria-expanded="false" aria-controls="c-s-8">
+        <span class="massage-head">
+          <span class="massage-title">Uvolňující masáž <b>zad</b></span>
+          <span class="massage-price">30 min 500 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-8" class="accordion-collapse collapse" aria-labelledby="h-s-8" data-bs-parent="#acc-s-2">
+      <div class="accordion-body">
+        <p>Krátká masáž zad pro uvolnění napjatých svalů. Hodí se, když potřebujete rychle vypnout.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-9">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-9" aria-expanded="false" aria-controls="c-s-9">
+        <span class="massage-head">
+          <span class="massage-title">Indická masáž hlavy <b>Champi</b></span>
+          <span class="massage-price">45 min 750 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-9" class="accordion-collapse collapse" aria-labelledby="h-s-9" data-bs-parent="#acc-s-2">
+      <div class="accordion-body">
+        <p>Tradiční indická masáž hlavy, šíje a ramen. Příjemně zklidňuje a uvolňuje napětí.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-10">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-10" aria-expanded="false" aria-controls="c-s-10">
+        <span class="massage-head">
+          <span class="massage-title">Relaxační <b>Blahodárná masáž</b> lávovými kameny</span>
+          <span class="massage-price">90 min 1500 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-10" class="accordion-collapse collapse" aria-labelledby="h-s-10" data-bs-parent="#acc-s-2">
+      <div class="accordion-body">
+        <p>Hřejivá masáž prohřátými lávovými kameny pro uvolnění těla i mysli.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-s-11">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-s-11" aria-expanded="false" aria-controls="c-s-11">
+        <span class="massage-head">
+          <span class="massage-title"><b>Aroma holistická</b> masáž</span>
+          <span class="massage-price">100 min 1700 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-s-11" class="accordion-collapse collapse" aria-labelledby="h-s-11" data-bs-parent="#acc-s-2">
+      <div class="accordion-body">
+        <p>Celostní masáž s vonnými esenciálními oleji, která propojuje uvolnění těla i mysli.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+</div>
+                    <div class="text-center pt-4">
+                        <a class="btn btn-secondary" href="#o-stepance">O mně</a>
+                    </div>
+                </div>
+
+                <!-- Lenka -->
+                <div class="col-lg-6 offer-col" id="nabidka-lenka">
+                    <h2 class="offer-name">Lenka Škoulová</h2>
+                    <h3 class="offer-group">Ájurvédské masáže</h3>
+<div class="accordion accordion-flush massage-list" id="acc-l-0">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-1">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-1" aria-expanded="false" aria-controls="c-l-1">
+        <span class="massage-head">
+          <span class="massage-title">Ájurvédská <b>Abhyanga</b> masáž</span>
+          <span class="massage-price">60 min 1000 Kč / 90 min 1500 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-1" class="accordion-collapse collapse" aria-labelledby="h-l-1" data-bs-parent="#acc-l-0">
+      <div class="accordion-body">
+        <p>Klasická ájurvédská masáž celého těla teplým olejem. Pomalé, plynulé tahy tělo prohřejí a hluboce uvolní.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-2" aria-expanded="false" aria-controls="c-l-2">
+        <span class="massage-head">
+          <span class="massage-title"><b>Ájurvédská masáž</b> zad, rukou, šíje a hlavy</span>
+          <span class="massage-price">60 min 1000 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-2" class="accordion-collapse collapse" aria-labelledby="h-l-2" data-bs-parent="#acc-l-0">
+      <div class="accordion-body">
+        <p>Masáž teplým olejem zaměřená na horní polovinu těla: záda, ruce, šíji a hlavu.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-3" aria-expanded="false" aria-controls="c-l-3">
+        <span class="massage-head">
+          <span class="massage-title">Ájurvédská masáž <b>Dáta Snéhan</b></span>
+          <span class="massage-price">90 min 1200 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-3" class="accordion-collapse collapse" aria-labelledby="h-l-3" data-bs-parent="#acc-l-0">
+      <div class="accordion-body">
+        <p>Ájurvédská masáž celého těla s olejem Dáta Snéhan.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-4" aria-expanded="false" aria-controls="c-l-4">
+        <span class="massage-head">
+          <span class="massage-title"><b>Ájurvédská masáž</b> s bylinným peelingem</span>
+          <span class="massage-price">90 min 1600 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-4" class="accordion-collapse collapse" aria-labelledby="h-l-4" data-bs-parent="#acc-l-0">
+      <div class="accordion-body">
+        <p>Ájurvédská masáž doplněná bylinným peelingem pro hebkou a svěží pokožku.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="offer-group">Relaxační masáže</h3>
+<div class="accordion accordion-flush massage-list" id="acc-l-1">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-5">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-5" aria-expanded="false" aria-controls="c-l-5">
+        <span class="massage-head">
+          <span class="massage-title">Uvolňující masáž <b>zad</b></span>
+          <span class="massage-price">30 min 500 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-5" class="accordion-collapse collapse" aria-labelledby="h-l-5" data-bs-parent="#acc-l-1">
+      <div class="accordion-body">
+        <p>Krátká masáž zad pro uvolnění napjatých svalů. Hodí se, když potřebujete rychle vypnout.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-6">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-6" aria-expanded="false" aria-controls="c-l-6">
+        <span class="massage-head">
+          <span class="massage-title">Relaxační <b>Blahodárná</b> masáž lávovými kameny</span>
+          <span class="massage-price">90 min 1500 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-6" class="accordion-collapse collapse" aria-labelledby="h-l-6" data-bs-parent="#acc-l-1">
+      <div class="accordion-body">
+        <p>Hřejivá masáž prohřátými lávovými kameny pro uvolnění těla i mysli.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="offer-group">Lymfatické masáže</h3>
+<div class="accordion accordion-flush massage-list" id="acc-l-2">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-7">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-7" aria-expanded="false" aria-controls="c-l-7">
+        <span class="massage-head">
+          <span class="massage-title">Manuální <b>lymfatická masáž</b></span>
+          <span class="massage-price">60 min 1000 Kč / 90 min 1300 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-7" class="accordion-collapse collapse" aria-labelledby="h-l-7" data-bs-parent="#acc-l-2">
+      <div class="accordion-body">
+        <p>Jemná manuální technika s lehkým, rytmickým tlakem. Klidná masáž celého těla.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="offer-group">Head Spa</h3>
+<div class="accordion accordion-flush massage-list" id="acc-l-3">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-8">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-8" aria-expanded="false" aria-controls="c-l-8">
+        <span class="massage-head">
+          <span class="massage-title"><b>Head Spa</b> Vůně Cejlonu</span>
+          <span class="massage-price">75 min 1300 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-8" class="accordion-collapse collapse" aria-labelledby="h-l-8" data-bs-parent="#acc-l-3">
+      <div class="accordion-body">
+        <p>Péče o hlavu a vlasovou pokožku inspirovaná vůněmi Cejlonu.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-9">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-9" aria-expanded="false" aria-controls="c-l-9">
+        <span class="massage-head">
+          <span class="massage-title"><b>Head Spa</b> s lymfatickou masáží rukou a nohou</span>
+          <span class="massage-price">120 min 1900 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-9" class="accordion-collapse collapse" aria-labelledby="h-l-9" data-bs-parent="#acc-l-3">
+      <div class="accordion-body">
+        <p>Head Spa doplněné lymfatickou masáží rukou a nohou.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-10">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-10" aria-expanded="false" aria-controls="c-l-10">
+        <span class="massage-head">
+          <span class="massage-title"><b>Šiva Head Spa</b> pro muže</span>
+          <span class="massage-price">90 min 1600 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-10" class="accordion-collapse collapse" aria-labelledby="h-l-10" data-bs-parent="#acc-l-3">
+      <div class="accordion-body">
+        <p>Head Spa ošetření připravené pro muže.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="offer-group">Maderoterapie</h3>
+<div class="accordion accordion-flush massage-list" id="acc-l-4">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-11">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-11" aria-expanded="false" aria-controls="c-l-11">
+        <span class="massage-head">
+          <span class="massage-title"><b>Maderoterapie</b></span>
+          <span class="massage-price">60 min 1000 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-11" class="accordion-collapse collapse" aria-labelledby="h-l-11" data-bs-parent="#acc-l-4">
+      <div class="accordion-body">
+        <p>Masáž pomocí dřevěných nástrojů.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="h-l-12">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#c-l-12" aria-expanded="false" aria-controls="c-l-12">
+        <span class="massage-head">
+          <span class="massage-title"><b>Maderoterapie</b> a zábal proti celulitidě</span>
+          <span class="massage-price">90 min 1500 Kč</span>
+        </span>
+      </button>
+    </h4>
+    <div id="c-l-12" class="accordion-collapse collapse" aria-labelledby="h-l-12" data-bs-parent="#acc-l-4">
+      <div class="accordion-body">
+        <p>Maderoterapie doplněná zábalem proti celulitidě.</p>
+        <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervovat</a>
+      </div>
+    </div>
+  </div>
+</div>
+                    <div class="text-center pt-4">
+                        <a class="btn btn-secondary" href="#o-lence">O mně</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ 4) PŘEDSTAVENÍ + FOTO ============ -->
+    <section class="about py-5" id="o-nas">
+        <div class="container">
+            <h1 class="text-center pb-4">Seznamte se</h1>
+            <div class="row g-5">
+
+                <!-- Štěpánka -->
+                <div class="col-lg-6" id="o-stepance">
+                    <img src="./assets/img/stepanka_2.jpg" alt="Štěpánka Kee" class="img-thumbnail about-photo">
+                    <h2 class="pt-3">Štěpánka Kee</h2>
+                    <p class="pt-2 justify">Ráda bych se s&nbsp;Vámi podělila o lásku k&nbsp;ajurvédským a&nbsp;relaxačním
+                        masážím. Otevření vlastního salonu je pro mě splněním dlouholetého snu. Cítím velikou vděčnost
+                        za to, že jsem na své životní cestě potkala "ty správné" lidi, kteří mě k&nbsp;východním naukám
+                        a&nbsp;k&nbsp;masážím přivedli.</p>
+                    <p class="justify">V masážní praxi přistupuji ke každému člověku celostně, protože věřím, že bolesti
+                        těla jsou často spojené s&nbsp;bolestmi duše a&nbsp;že je důležité zabývat se obojím, abychom
+                        dosáhli opravdového uzdravení a&nbsp;uvolnění.</p>
+                    <p class="justify">Sama se stále učím, skrze vzestupy i&nbsp;pády, skrze vše, co život nabízí. To mě na
+                        životě nejvíce baví. Má cesta je cesta vědomého seberozvoje. Věřím, že být dobrým člověkem je
+                        to podstatné. A&nbsp;vy jste mou inspirací…
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#o-mne">Více o&nbsp;mně.</a></p>
+                    <p>Namasté,</p>
+                    <p class="text-secondary">Štěpánka Kee</p>
+
+                    <div class="modal fade bd-example-modal-lg" id="o-mne" tabindex="-1" role="dialog"
+                        aria-labelledby="o-mne-title" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title" id="o-mne-title">Absolvované <b>rekvalifikační
+                                            a&nbsp;odborné kurzy</b> 2013&nbsp;-&nbsp;2023:</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="justify">Můj první kontakt s&nbsp;ajurvédskými masážemi se odehrál v&nbsp;roce
+                                        2013, kdy jsem pod vedením duchovního učitele z&nbsp;Indie a&nbsp;jeho ženy
+                                        z&nbsp;Čech získala dar v&nbsp;podobě zasvěcení do léčivé síly masáží
+                                        a&nbsp;do tajů a&nbsp;učení Indie. Díky tomuto vědění jsem prožila na své
+                                        životní cestě zásadní transformaci, ze které budu čerpat pravděpodobně do
+                                        konce svého života. Energii získanou z&nbsp;této zkušenosti předávám
+                                        s&nbsp;radostí, pokorou a&nbsp;vděkem dál, prostřednictvím svých masáží.</p>
+                                    <ul>
+                                        <li>Ajurvédská Abhyanga masáž</li>
+                                        <li>Ajurvédská Pada Abhyanga masáž</li>
+                                        <li>Ajurvédská anti-celulitidní Garshan masáž</li>
+                                        <li>Ajurvédská masáž bylinnými měšci</li>
+                                        <li>Aroma holistická masáž</li>
+                                        <li>Aura Soma masáž</li>
+                                        <li>Indická masáž hlavy Champi</li>
+                                        <li>Manuální lymfatická masáž těla</li>
+                                        <li>Masér pro sportovní a rekondiční masáže mimo oblast zdravotnictví</li>
+                                        <li>Usui Shiki Ryoho Reiki - I. stupeň</li>
+                                        <li>Usui Shiki Ryoho Reiki - II. stupeň</li>
+                                        <li>Zhong Yuan Qigong I. stupeň</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lenka -->
+                <div class="col-lg-6" id="o-lence">
+                    <!-- DOPLNIT: fotku Lenky nahrát jako assets/img/lenka.jpg -->
+                    <img src="./assets/img/lenka.jpg" alt="Lenka Škoulová" class="img-thumbnail about-photo">
+                    <h2 class="pt-3">Lenka Škoulová</h2>
+                    <!-- DOPLNIT: představení Lenky -->
+                    <p class="pt-2 justify">Sem patří krátké představení Lenky: kdo je, jak se k&nbsp;masážím dostala
+                        a&nbsp;co mohou klienti od její péče čekat.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ FOTKY SALONU ============ -->
+    <section class="salon pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="carousel-photos-0" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-photos-0" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-photos-0" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-photos-0" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousel-photos-0" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carousel-photos-0" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carousel-photos-0" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#carousel-photos-0" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="assets/img/interier/KOCH2534.jpg" class="d-block w-100" alt="Interiér salonu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/interier/KOCH2509.jpg" class="d-block w-100" alt="Interiér salonu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/interier/KOCH2476.jpg" class="d-block w-100" alt="Interiér salonu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/interier/KOCH2566.jpg" class="d-block w-100" alt="Interiér salonu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/interier/KOCH2572.jpg" class="d-block w-100" alt="Interiér salonu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/interier/KOCH2411.jpg" class="d-block w-100" alt="Interiér salonu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/interier/KOCH2564.jpg" class="d-block w-100" alt="Interiér salonu">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-photos-0"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Předchozí</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-photos-0"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Následující</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ ODKAZY (beze změny) ============ -->
+    <section class="linktree content-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 linktree-div">
+                    <a href="./ajurveda">
+                        <img class="linktree-icon" src="./assets/icons/ajurveda.svg" alt="" srcset="">
+                        <p class="text-secondary linktree-text">O Ajurvédě</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 linktree-div">
+                    <a href="./dosa-test">
+                        <img class="linktree-icon" src="./assets/icons/soul.svg" alt="" srcset="">
+                        <p class="text-secondary linktree-text">Poznej svou dóšu</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 linktree-div">
+                    <a href="./oleje">
+                        <img class="linktree-icon" src="./assets/icons/oil.svg" alt="" srcset="">
+                        <p class="text-secondary linktree-text">Oleje v Blahodárné péči</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="content-small">
+        <div class="container">
+            <div class="row motto-div">
+                <p class="text-secondary motto-text">„Naše planeta nepotřebuje víc úspěšných lidí. Zoufale potřebuje ty,
+                    kteří tvoří mír, léčí, obnovují, vyprávějí příběhy a&nbsp;milují vše živé.“</p>
+                <p class="text-secondary text-right motto-text">– Dalajláma</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ KONTAKT ============ -->
+    <section class="massages content-large" id="kontakt">
+        <div class="container">
+            <div class="row pt-5">
+                <h1 class="text-center ">Kde se spolu setkáme?</h1>
+                <div class="col-lg-7 py-4">
+                    <p>Štěpánka Kee</p>
+                    <p>
+                        <img src="./assets/icons/phone.svg" alt=""
+                            style="height:25px; width:50px; padding-right: 20px;">
+                        <a href="tel:+420777450911">+420 777 450 911</a>
+                    </p>
+                    <p>Lenka Škoulová</p>
+                    <p>
+                        <img src="./assets/icons/phone.svg" alt=""
+                            style="height:25px; width:50px; padding-right: 20px;">
+                        <a href="tel:+420723249955">+420 723 249 955</a>
+                    </p>
+                    <p> <img src="./assets/icons/mail.svg" alt="" style="height:20px; width:50px; padding-right: 20px;">
+                        <a href="mailto:blahodarna.pece@gmail.com">blahodarna.pece@gmail.com</a>
+                    </p>
+                    <p><img src="./assets/icons/place.svg" alt="" style="height:30px; width:50px; padding-right: 20px;">
+                        Masarykova 636, 43801 Žatec</p>
+                    <a class="btn btn-primary" target="_blank" rel="noopener" href="https://booking.reservanto.cz/Modal/?id=20047">Rezervace</a>
+                    <p class="text-secondary motto-text pt-4 text-center">Jak můžete v Blahodárné péči zaplatit?</p>
+                    <div class="row text-center">
+                        <div class="col-lg-6 ">
+                            <img class="contact-icon" src="./assets/icons/cash.svg" alt="" srcset="">
+                            <p class="contact-text">HOTOVĚ</p>
+
+                        </div>
+                        <div class="col-lg-6 ">
+                            <img class="contact-icon" src="./assets/icons/prevod.svg" alt="" srcset="">
+                            <p class="contact-text">PŘEVODEM</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 py-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2547.1660684057724!2d13.5449245!3d50.3261529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470a3d9fd2362373%3A0x82a2731d03d81fd3!2zQmxhaG9kw6FybsOhIHDDqcSNZSAtIHJlbGF4YcSNbsOtIGEgw6FqdXJ2w6lkc2vDqSBtYXPDocW-ZQ!5e0!3m2!1scs!2scz!4v1761575451794!5m2!1scs!2scz"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="Mapa: Masarykova 636, Žatec"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="content-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="footer">
+                        <p class="text-white">Štěpánka Kee<br>
+                            <span>IČO: 07620799</span><br>
+                            Fyzická osoba podnikající dle živnostenského zákona.
+                        </p>
+                        <a class="text-footer" href="./neco-navic">Něco navíc 👀</a><br>
+                        <a class="text-footer" href="./kontraindikace">Kontraindikace</a><br>
+                        <a class="text-footer" href="./ajurveda">O Ajurvédě</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center py-4">
+                    <img class="logo-footer" src="./assets/logos/Logo_trans_bile.svg" alt="Blahodárná péče" srcset="">
+                </div>
+                <div class="col-lg-12" style="text-align: center;">
+                    <a href="http://ondrejkubanek.cz" target="_blank"><img style="width:250px; margin: 1.5rem; "
+                            src="https://ondrejkubanek.cz/assets/logo/ok_copy_white.svg"
+                            alt="Created by: Ondřej Kubánek" srcset=""> </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>
