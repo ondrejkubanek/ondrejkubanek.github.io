@@ -207,3 +207,38 @@
         justify-content: center;
     }
 }
+
+/* seznamy uvnitř popisu masáže (např. Džaráhar) */
+.massage-list .accordion-body ul {
+    margin-bottom: .9rem;
+    padding-left: 1.25rem;
+}
+
+/* ---------- Menu: Domů se srdíčkem ---------- */
+.nav-home .bi {
+    color: inherit;
+    /* srdíčko přebírá barvu textu: hnědé, při najetí zežloutne s ním */
+    margin-right: .25rem;
+    transition: transform .25s ease;
+}
+
+.nav-home .bi-heart-fill {
+    display: none;
+}
+
+.nav-home:hover .bi-heart,
+.nav-home:focus-visible .bi-heart {
+    display: none;
+}
+
+.nav-home:hover .bi-heart-fill,
+.nav-home:focus-visible .bi-heart-fill {
+    display: inline-block;
+    transform: scale(1.15);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .nav-home .bi {
+        transition: none;
+    }
+}
